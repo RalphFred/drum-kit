@@ -1,7 +1,6 @@
 import Title from './Components/Title';
 import Drums from './Components/Drums';
 
-
 function App() {
 
 
