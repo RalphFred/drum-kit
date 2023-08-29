@@ -5,9 +5,11 @@ function App() {
 
 
   return (
-    <div className="w-full h-screen px-12 py-12 bg-gray-600">
-      <Title />
-      <Drums />
+    <div className="w-full h-screen flex justify-center items-center bg-gradient-to-br from-gray-600 via-gray-700 to-gray-800">
+      <div>
+        <Title />
+        <Drums />
+      </div>
     </div>
   )
 }

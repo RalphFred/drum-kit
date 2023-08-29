@@ -4,7 +4,7 @@ import Drum from './Drum';
 const Drums = () => {
 
   return (
-    <div className="grid grid-cols-7 py-36">
+    <div className="w-screen flex flex-wrap justify-around items-center mt-16 px-2">
         {sources.map((source, index) => (
           <Drum key={index} source={source}/>
         ))

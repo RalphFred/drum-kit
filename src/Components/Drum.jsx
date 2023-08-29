@@ -73,16 +73,16 @@ const Drum = (props) => {
   return (
     <div>
         <div
-        className={`w-[160px] h-[160px] flex justify-center items-center rounded-2xl bg-white relative border-8 border-gray-400 ${animate}` }
+        className={`w-[80px] h-[90px] md:w-[90px] md:h-[100px] lg:w-[160px] lg:h-[160px] mx-1 mb-4 lg:mx-4 lg:mb-12 flex justify-center items-center rounded-2xl bg-white relative border-8 border-gray-400 ${animate}`}
         >
             <img 
                 src={props.source.src} 
                 alt={props.source.id} 
                 onClick={handleClick}
-                className="h-[150px] w-[150px] object-contain rounded-2xl"
+                className="h-[70px] w-[70px] lg:h-[130px] lg:w-[130px] object-contain rounded-2xl"
             />
             <h1 
-            className="text-[72px] text-center font-bold absolute bottom-0 text-pink-700 drop-shadow-lg select-none"
+            className="text-6xl text-center font-bold absolute bottom-0 text-pink-700 drop-shadow-lg select-none"
             onClick={handleClick}
             >
                 {props.source.letter}
